@@ -1,0 +1,8 @@
+D:\1\HW04.Separator\bin\Debug\HW04.Separator.exe.config
+D:\1\HW04.Separator\bin\Debug\HW04.Separator.exe
+D:\1\HW04.Separator\bin\Debug\HW04.Separator.pdb
+D:\1\HW04.Separator\obj\Debug\HW04.Separator.csproj.AssemblyReference.cache
+D:\1\HW04.Separator\obj\Debug\HW04.Separator.csproj.SuggestedBindingRedirects.cache
+D:\1\HW04.Separator\obj\Debug\HW04.Separator.csproj.CoreCompileInputs.cache
+D:\1\HW04.Separator\obj\Debug\HW04.Separator.exe
+D:\1\HW04.Separator\obj\Debug\HW04.Separator.pdb
