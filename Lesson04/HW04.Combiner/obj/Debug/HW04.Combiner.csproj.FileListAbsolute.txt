@@ -1,0 +1,16 @@
+D:\1\HW04.Combiner\bin\Debug\HW04.Combiner.exe.config
+D:\1\HW04.Combiner\bin\Debug\HW04.Combiner.exe
+D:\1\HW04.Combiner\bin\Debug\HW04.Combiner.pdb
+D:\1\HW04.Combiner\obj\Debug\HW04.Combiner.csproj.AssemblyReference.cache
+D:\1\HW04.Combiner\obj\Debug\HW04.Combiner.csproj.SuggestedBindingRedirects.cache
+D:\1\HW04.Combiner\obj\Debug\HW04.Combiner.csproj.CoreCompileInputs.cache
+D:\1\HW04.Combiner\obj\Debug\HW04.Combiner.exe
+D:\1\HW04.Combiner\obj\Debug\HW04.Combiner.pdb
+C:\Users\inqub\Documents\Git projects\HomeWorks-main\Lesson04\HW04.Combiner\bin\Debug\HW04.Combiner.exe.config
+C:\Users\inqub\Documents\Git projects\HomeWorks-main\Lesson04\HW04.Combiner\bin\Debug\HW04.Combiner.exe
+C:\Users\inqub\Documents\Git projects\HomeWorks-main\Lesson04\HW04.Combiner\bin\Debug\HW04.Combiner.pdb
+C:\Users\inqub\Documents\Git projects\HomeWorks-main\Lesson04\HW04.Combiner\obj\Debug\HW04.Combiner.csproj.AssemblyReference.cache
+C:\Users\inqub\Documents\Git projects\HomeWorks-main\Lesson04\HW04.Combiner\obj\Debug\HW04.Combiner.csproj.SuggestedBindingRedirects.cache
+C:\Users\inqub\Documents\Git projects\HomeWorks-main\Lesson04\HW04.Combiner\obj\Debug\HW04.Combiner.csproj.CoreCompileInputs.cache
+C:\Users\inqub\Documents\Git projects\HomeWorks-main\Lesson04\HW04.Combiner\obj\Debug\HW04.Combiner.exe
+C:\Users\inqub\Documents\Git projects\HomeWorks-main\Lesson04\HW04.Combiner\obj\Debug\HW04.Combiner.pdb
