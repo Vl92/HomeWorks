@@ -19,15 +19,20 @@ namespace HW04.SalaryBonusCalculator
             Console.WriteLine("Введите вашу зарплату");
             basic = Convert.ToString(Console.ReadLine());
             Console.WriteLine("Ваша зарплата" + " " +basic);
+            Console.Clear();
 
             Console.WriteLine("Введите ваш стаж работы");
             experience = Convert.ToDouble(Console.ReadLine());
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("Ваш стаж" + " " +experience);
+            Console.Clear();
+            Console.ForegroundColor = ConsoleColor.Red;
 
             if (experience < experience1)
             {
                 double bonus = (Convert.ToDouble(basic) * 10) / 100;
                 double totalsalry = Convert.ToDouble(basic) + bonus;
+                
                 Console.WriteLine("Общая зарплата {0}", totalsalry);
             }
 
