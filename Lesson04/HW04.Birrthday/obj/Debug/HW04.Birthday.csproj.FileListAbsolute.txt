@@ -1,0 +1,8 @@
+C:\Users\inqub\Documents\Git projects\HomeWorks-main\Lesson04\HW04.Birrthday\bin\Debug\HW04.Birthday.exe.config
+C:\Users\inqub\Documents\Git projects\HomeWorks-main\Lesson04\HW04.Birrthday\bin\Debug\HW04.Birthday.exe
+C:\Users\inqub\Documents\Git projects\HomeWorks-main\Lesson04\HW04.Birrthday\bin\Debug\HW04.Birthday.pdb
+C:\Users\inqub\Documents\Git projects\HomeWorks-main\Lesson04\HW04.Birrthday\obj\Debug\HW04.Birthday.csproj.AssemblyReference.cache
+C:\Users\inqub\Documents\Git projects\HomeWorks-main\Lesson04\HW04.Birrthday\obj\Debug\HW04.Birthday.csproj.SuggestedBindingRedirects.cache
+C:\Users\inqub\Documents\Git projects\HomeWorks-main\Lesson04\HW04.Birrthday\obj\Debug\HW04.Birthday.csproj.CoreCompileInputs.cache
+C:\Users\inqub\Documents\Git projects\HomeWorks-main\Lesson04\HW04.Birrthday\obj\Debug\HW04.Birthday.exe
+C:\Users\inqub\Documents\Git projects\HomeWorks-main\Lesson04\HW04.Birrthday\obj\Debug\HW04.Birthday.pdb
