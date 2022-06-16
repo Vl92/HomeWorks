@@ -1,14 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HW04.Birthday
 {
     internal class Program
     {
         public int year, month, day;
+        public int yearTwo, monthTwo, dayTwo;
+        public int resultyear, resultmonth;
         public void info()
         {
             Console.Write("Год = ");
@@ -18,41 +16,41 @@ namespace HW04.Birthday
             Console.Write("День = ");
             day = int.Parse(Console.ReadLine());
         }
-        public int year_2, month_2, day_2;
+        
         public void info_t()
         {
             Console.Write("Год = ");
-            year_2 = int.Parse(Console.ReadLine());
+            yearTwo = int.Parse(Console.ReadLine());
             Console.Write("Месяц = ");
-            month_2 = int.Parse(Console.ReadLine());
+            monthTwo = int.Parse(Console.ReadLine());
             Console.Write("День = ");
-            day_2 = int.Parse(Console.ReadLine());
+            dayTwo = int.Parse(Console.ReadLine());
         }
-        public int result_year, result_month;
+        
         public void Result()
         {
-            if ((month_2 - month) > 0)
+            if ((monthTwo - month) > 0)
             {
-                result_month = month_2 - month;
-                result_year = year_2 - year;
-                Console.WriteLine("Получается {0} лет и {1} месяцов ", result_year, result_month);
+                resultmonth = monthTwo - month;
+                resultyear = yearTwo - year;
+                Console.WriteLine("Получается {0} лет и {1} месяцов ", resultyear, resultmonth);
             }
             else
             {
-                result_month = month_2 + 12 - month;
-                result_year = year_2 - 1 - year;
-                Console.WriteLine("Получается {0} лет и {1} месяцов ", result_year, result_month);
+                resultmonth = monthTwo + 12 - month;
+                resultyear = yearTwo - 1 - year;
+                Console.WriteLine("Получается {0} лет и {1} месяцов ", resultyear, resultmonth);
             }
         }
         static void Main()
         {
-            Program vadym = new Program();
+            Program program = new Program();
             Console.WriteLine("Настоящая дата рождения : ");
-            vadym.info();
+            program.info();
             Console.WriteLine("\nHа сегодняшний день : ");
-            vadym.info_t();
+            program.info_t();
 
-            vadym.Result();
+            program.Result();
             Console.ReadLine();
         }
     }

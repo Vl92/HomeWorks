@@ -5,59 +5,80 @@ namespace HW04.SalaryBonusCalculator
 {
     internal class Program
     {
+
         static void Main(string[] args)
         {
-            string basic;
-            double experience;
-            int experience1 = 5;
-            int experience2 = 10;
-            int experience3 = 15;
-            int experience4 = 20;
-            int experience5 = 25;
-            
+            string salary;
+            string experience;
+            int experience1 = 5, experience2 = 10, experience3 = 15, experience4 = 20, experience5 = 25;
+
+
 
             Console.WriteLine("Введите вашу зарплату");
-            basic = Convert.ToString(Console.ReadLine());
-            Console.WriteLine("Ваша зарплата" + " " +basic);
+            salary = (Console.ReadLine());
+            bool result = int.TryParse(salary, out int value);
 
-            Console.WriteLine("Введите ваш стаж работы");
-            experience = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Ваш стаж" + " " +experience);
-
-            if (experience < experience1)
+            if (result == true)
             {
-                double bonus = (Convert.ToDouble(basic) * 10) / 100;
-                double totalsalry = Convert.ToDouble(basic) + bonus;
-                Console.WriteLine("Общая зарплата {0}", totalsalry);
+                Console.WriteLine("Ваша зарплата" + " " + salary);
+                Console.WriteLine("Введите ваш стаж работы");
+                experience = Console.ReadLine();
+                result = int.TryParse(experience, out int valueTwo);
+
+                if (result == true)
+                {
+                    Console.WriteLine("Ваш стаж" + " " + experience);
+
+
+                    if (valueTwo < experience1)
+                    {
+                        double bonus = (Convert.ToDouble(salary) * 10) / 100;
+                        double totalsalary = Convert.ToDouble(salary) + bonus;
+                        Console.WriteLine("Общая зарплата {0}", totalsalary);
+                    }
+
+                    if ((valueTwo >= experience1) && (valueTwo < experience2))
+                    {
+                        double bonus = (Convert.ToDouble(salary) * 15) / 100;
+                        double totalsalary = Convert.ToDouble(salary) + bonus;
+                        Console.WriteLine("Общая зарплата {0}", totalsalary);
+                    }
+
+                    if ((valueTwo >= experience2) && (valueTwo < experience3))
+                    {
+                        double bonus = (Convert.ToDouble(salary) * 25) / 100;
+                        double totalsalary = Convert.ToDouble(salary) + bonus;
+                        Console.WriteLine("Общая зарплата {0}", totalsalary);
+                    }
+
+                    if ((valueTwo >= experience3) && (valueTwo < experience4))
+                    {
+                        double bonus = (Convert.ToDouble(salary) * 35) / 100;
+                        double totalsalary = Convert.ToDouble(salary) + bonus;
+                        Console.WriteLine("Общая зарплата {0}", totalsalary);
+                    }
+
+                    if (valueTwo >= experience5)
+                    {
+                        double bonus = (Convert.ToDouble(salary) * 50) / 100;
+                        double totalsalary = Convert.ToDouble(salary) + bonus;
+                        Console.WriteLine("Общая зарплата {0}", totalsalary);
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Вы ввели не верное значение");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Вы ввели не верное значение");
             }
 
-            if ((experience >= experience1 ) && ( experience < experience2))
-            {
-                double bonus = (Convert.ToDouble(basic) * 15) / 100;
-                double totalsalry = Convert.ToDouble(basic) + bonus;
-                Console.WriteLine("Общая зарплата {0}", totalsalry);
-            }
 
-            if ((experience >= experience2) && (experience < experience3))
-            {
-                double bonus = (Convert.ToDouble(basic) * 25) / 100;
-                double totalsalry = Convert.ToDouble(basic) + bonus;
-                Console.WriteLine("Общая зарплата {0}", totalsalry);
-            }
 
-            if ((experience >= experience3) && (experience < experience4))
-            {
-                double bonus = (Convert.ToDouble(basic) * 35) / 100;
-                double totalsalry = Convert.ToDouble(basic) + bonus;
-                Console.WriteLine("Общая зарплата {0}", totalsalry);
-            }
 
-            if (experience >= experience5) 
-            {
-                double bonus = (Convert.ToDouble(basic) * 50) / 100;
-                double totalsalry = Convert.ToDouble(basic) + bonus;
-                Console.WriteLine("Общая зарплата {0}", totalsalry);
-            }
+
 
             Console.ReadLine();
         }

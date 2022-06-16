@@ -11,10 +11,8 @@ namespace HW04.Combiner
             Console.Write("Введите вашу фамилию: ");
             string surname = Console.ReadLine();
 
-            Console.Write("Здравствуйте, " + name +" " + surname +  ", сегодня хороший день");
+            Console.Write("Здравствуйте, " + surname +" " + name +  ", сегодня хороший день");
             
-
-
             Console.ReadKey();
         }
     }

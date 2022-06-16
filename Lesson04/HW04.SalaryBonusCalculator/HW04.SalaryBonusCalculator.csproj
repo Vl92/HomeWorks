@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{17CB6771-BA63-4CDC-8565-9956B7537C28}</ProjectGuid>
+    <ProjectGuid>{7279E34B-F047-40BA-98D3-D32EDAECB5FF}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>HW04.SalaryBonusCalculator</RootNamespace>
     <AssemblyName>HW04.SalaryBonusCalculator</AssemblyName>
