@@ -8,5 +8,10 @@ namespace HW05.IntuitionTraining
         {
             throw new NotImplementedException();
         }
+
+        internal static int Next(int v1, int v2)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

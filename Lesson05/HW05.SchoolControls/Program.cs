@@ -13,7 +13,6 @@ namespace HW05.SchoolControls
                 int numtest = 0;
                 numtest = Convert.ToInt32(Console.ReadLine());
 
-
                 if ((numtest >= 1) && (numtest <= 15))
                 {
                     Console.WriteLine("Тест который вы ввели относится к первой четверти");

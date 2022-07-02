@@ -6,7 +6,6 @@ namespace HW05.IntuitionTraining
     internal class Program
     {       
         public static object Guess { get; private set; }
-
         static void Main(string[] args)
         {
             while(true)
@@ -16,11 +15,8 @@ namespace HW05.IntuitionTraining
                 int Guess = 0;
                 Console.WriteLine("Я загадал число от 1 до 5. Сможешь угадать?");
 
-
-
                 Guess = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("Вы загадали число " + Guess);
-
 
                 if (Guess != returnValue)
                 {
@@ -31,12 +27,8 @@ namespace HW05.IntuitionTraining
                     Console.WriteLine("Красавчик, правильный ответ " + returnValue);
                 }
                 Console.WriteLine("Хотите продолжить?");
-
-
             } 
-
             Console.ReadLine();
-
         }
     }
 }
