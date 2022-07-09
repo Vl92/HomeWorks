@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанные с этой сборкой.
-[assembly: AssemblyTitle("HW06.ThirdArrayCreator")]
+[assembly: AssemblyTitle("HW06.ArrayModifier")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("HW06.ThirdArrayCreator")]
+[assembly: AssemblyProduct("HW06.ArrayModifier")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID представляет идентификатор typelib, если этот проект доступен из модели COM
-[assembly: Guid("643d76ae-a972-4b00-9745-c79e0d429c7b")]
+[assembly: Guid("0f997eae-d32c-4a4d-a261-3e36b3c4d14b")]
 
 // Сведения о версии сборки состоят из указанных ниже четырех значений:
 //

@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.2.32602.215
+VisualStudioVersion = 17.2.32505.173
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW06.ThirdArrayCreator", "HW06.ThirdArrayCreator\HW06.ThirdArrayCreator.csproj", "{643D76AE-A972-4B00-9745-C79E0D429C7B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW06.ThirdArrayCreator", "HW06.ThirdArrayCreator.csproj", "{EB26C29F-7A86-4B20-93A0-37B64466D0C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{643D76AE-A972-4B00-9745-C79E0D429C7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{643D76AE-A972-4B00-9745-C79E0D429C7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{643D76AE-A972-4B00-9745-C79E0D429C7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{643D76AE-A972-4B00-9745-C79E0D429C7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB26C29F-7A86-4B20-93A0-37B64466D0C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB26C29F-7A86-4B20-93A0-37B64466D0C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB26C29F-7A86-4B20-93A0-37B64466D0C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB26C29F-7A86-4B20-93A0-37B64466D0C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {C7A00DC9-26BB-4006-8B94-7206DD416CB8}
+		SolutionGuid = {91841309-31A2-4F0F-BB80-DF435188A9F9}
 	EndGlobalSection
 EndGlobal

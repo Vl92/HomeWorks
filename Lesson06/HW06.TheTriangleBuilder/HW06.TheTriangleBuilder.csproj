@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{763805D5-28F8-49CE-A1F8-C279B119E314}</ProjectGuid>
+    <ProjectGuid>{8C0DF37B-7781-4BAF-B254-0B6F43A863B3}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>HW06.TheTriangleBuilder</RootNamespace>
     <AssemblyName>HW06.TheTriangleBuilder</AssemblyName>

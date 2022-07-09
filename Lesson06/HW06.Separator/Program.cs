@@ -16,6 +16,14 @@ namespace HW06.Separator
             }
             Console.WriteLine(poem);
 
+            string[] plitedArrayTwo = poem.Split(' ');
+            string poemColumn = "";
+            for (int i = 0; i < plitedArrayTwo.Length; i++)
+            {
+                poemColumn += (plitedArrayTwo[i] + "\n").Trim(';');
+            }
+            Console.WriteLine(poemColumn);
+
             Console.ReadKey();
         }
     }

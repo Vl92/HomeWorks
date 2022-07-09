@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{643D76AE-A972-4B00-9745-C79E0D429C7B}</ProjectGuid>
+    <ProjectGuid>{EB26C29F-7A86-4B20-93A0-37B64466D0C3}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>HW06.ThirdArrayCreator</RootNamespace>
     <AssemblyName>HW06.ThirdArrayCreator</AssemblyName>
