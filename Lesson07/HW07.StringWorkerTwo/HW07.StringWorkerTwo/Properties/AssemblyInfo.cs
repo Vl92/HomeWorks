@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанные с этой сборкой.
-[assembly: AssemblyTitle("HW07.Diagonal")]
+[assembly: AssemblyTitle("HW07.StringWorkerTwo")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("HW07.Diagonal")]
+[assembly: AssemblyProduct("HW07.StringWorkerTwo")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID представляет идентификатор typelib, если этот проект доступен из модели COM
-[assembly: Guid("8b1ec5bb-3829-4b4d-8254-5fb575f84cec")]
+[assembly: Guid("995719a0-92a9-4417-8226-c84eced95537")]
 
 // Сведения о версии сборки состоят из указанных ниже четырех значений:
 //

@@ -7,23 +7,20 @@ namespace HW07.StringWorkerThree
     {
         static void Main(string[] args)
         {          
-            string initialВata = "gdfgdf234dg54gf+23oP42";
-            Console.WriteLine("Изначальное значение: " + initialВata);
-            string[] signSeparation = initialВata.Split('+','-','*','/');
-
-            foreach (var word in signSeparation)
-            { }                      
-            
+            string initialData = "gdfgdf234dg54gf+23oP42";
+            Console.WriteLine("original number: " + initialData);
+            string[] signSeparation = initialData.Split('+','-','*','/');
+                                 
             int value;
             int.TryParse(string.Join("", signSeparation[0].Where(c => char.IsDigit(c))), out value);
-            Console.WriteLine("Первое значение: " + value);
+            Console.WriteLine("first value: " + value);
 
             int valueTwo;
             int.TryParse(string.Join("", signSeparation[1].Where(c => char.IsDigit(c))), out valueTwo);
-            Console.WriteLine("Второе значение: "+valueTwo);
+            Console.WriteLine("second meaning: " + valueTwo);
 
             int sum = value + valueTwo;
-            Console.WriteLine(sum);
+            Console.WriteLine("Sum: " + sum);
        
             Console.ReadKey();
         }

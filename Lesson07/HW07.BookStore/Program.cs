@@ -8,9 +8,7 @@ namespace HW07.BookStore
         {
             const int z = 3, y = 4, x = 4;
         
-            int[,,] array = new int[z, y, x]
-
-            
+            int[,,] array = new int[z, y, x]           
             {
                 {
                     {09,12,05,15 },
@@ -39,8 +37,7 @@ namespace HW07.BookStore
                     if (array[k, j, i] > max)
                         max = array[i, j, k];
             Console.WriteLine("max:{0}", max);
-
-            
+           
            int min = array[0,0,0];
             for (int g = 0; g < x; g++)
                 for (int h = 0; h < y; h++)

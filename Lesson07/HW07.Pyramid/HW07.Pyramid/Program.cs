@@ -6,22 +6,43 @@ namespace HW07.Pyramid
     {
         static void Main(string[] args)
         {
-            //Дан массив 2d 4 на 5
-            int i=4, j=5;
-            int[,] array = new int[i, j];
+            int rowCount = 4;
+            int colummneCount = 5;
 
-            //Измените значения массива так, чтобы при выводе в консоль массив имел пирамиду из единиц
-            array[1, 2] = 1; array[2, 1] = 1; array[2, 2] = 1; array[2, 3] = 1;array[3, 0]=1; 
-            array[3, 1] = 1; array[3, 2] = 1; array[3, 3] = 1; array[3, 4] = 1;
+            int[,] array = new int[rowCount, colummneCount];
 
-            for (int row = 0; row < array.GetLength(0); row++)
+            int displayValueOne = 1;
+            int displayValueZero = 0; 
+
+            int middleValueOne = (colummneCount - 1) / 2;
+            int middleValueTwo = (colummneCount - 1) / 2;
+
+            for (int i = 0; i < array.GetLength(0); i++)
             {
-                for (int column = 0; column < array.GetLength(1); column++)
-                    Console.Write(array[row, column] + "\t");
-                Console.WriteLine();
+                for (int j = 0; j < array.GetLength(1); j++)
+                {
+                    if (i == 0)
+                    {
+                        Console.Write(displayValueZero);
+                    }
+                    else
+                    {
+                        if (j > middleValueOne && j < middleValueTwo)
+                        {
+                            Console.Write(displayValueOne);
+                        }
+                        else
+                        {
+                            Console.Write(displayValueZero);
+                        }
+                    }
+                }
+                middleValueOne--;
+                middleValueTwo++;
+                Console.WriteLine();              
             }
-
             Console.ReadKey();
         }
     }
+  
 }

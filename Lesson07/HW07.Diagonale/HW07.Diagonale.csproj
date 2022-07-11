@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8B1EC5BB-3829-4B4D-8254-5FB575F84CEC}</ProjectGuid>
+    <ProjectGuid>{4BF85048-4349-4C28-BF80-4A9B9B49748B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>HW07.Diagonal</RootNamespace>
-    <AssemblyName>HW07.Diagonal</AssemblyName>
+    <RootNamespace>HW07.Diagonale</RootNamespace>
+    <AssemblyName>HW07.Diagonale</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

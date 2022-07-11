@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("HW07.StringWorkerTwo")]
+[assembly: AssemblyTitle("HW07.Diagonale")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("HW07.StringWorkerTwo")]
+[assembly: AssemblyProduct("HW07.Diagonale")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("0d0376aa-b745-42f4-a184-1d334d827d07")]
+[assembly: Guid("4bf85048-4349-4c28-bf80-4a9b9b49748b")]
 
 // Version information for an assembly consists of the following four values:
 //
